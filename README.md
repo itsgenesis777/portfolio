@@ -1,7 +1,7 @@
 # 🌐 Genstack — Personal Portfolio
 
 Welcome to my personal portfolio!  
-This website showcases my background, technical skills, and selected cloud/dev projects as a Junior Cloud Engineer and aspiring Solutions Architect.
+This website showcases my background, technical skills, and selected cloud/dev projects.
 
 🔗 **Live site:** [https://genstack.solutions](https://genstack.solutions)  
 📫 **LinkedIn:** [linkedin.com/in/johngenesispamintuan](https://www.linkedin.com/in/johngenesispamintuan/)
@@ -57,7 +57,7 @@ This website showcases my background, technical skills, and selected cloud/dev p
 
 ## 🧠 About Me
 
-I'm **Gen Pamintuan**, a passionate Junior DevOps/Cloud Engineer.  
+I'm **Gen Pamintuan**, a passionate Cloud Practitioner.  
 I love automating workflows, deploying serverless architectures, and learning how modern infrastructure powers great products.
 
 > “Learning in public, building in the cloud.”
@@ -75,3 +75,5 @@ npm run dev
 
 # Build for production
 npm run build
+
+

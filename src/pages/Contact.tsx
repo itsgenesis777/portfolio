@@ -58,26 +58,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "tapispisan21@gmail.com",
-      href: "mailto:tapispisan21@gmail.com"
+      value: "john.gen.pamintuan@gmail.com",
+      href: "mailto:john.gen.pamintuan@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+63 906-369-5732",
-      href: "tel:09063695732"
+      value: "+63 927-868-7341",
+      href: "tel:09278687341"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/tapispisan-lourd-vincent-m-060871278",
-      href: "https://linkedin.com/in/tapispisan-lourd-vincent-m-060871278"
+      value: "linkedin.com/in/johngenesispamintuan/",
+      href: "https://www.linkedin.com/in/johngenesispamintuan/"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/ceeeentd",
-      href: "https://github.com/ceeeentd"
+      value: "github.com/itsgenesis777",
+      href: "https://github.com/itsgenesis777"
     }
   ];
 

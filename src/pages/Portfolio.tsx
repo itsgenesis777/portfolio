@@ -7,7 +7,7 @@ const Portfolio = () => {
     {
       title: "Personal Portfolio Website",
       description: `A sleek portfolio site backed by a serverless AWS architecture, featuring a dynamic contact form powered by API Gateway, Lambda, and SES for secure messaging and email notifications. The site is hosted on S3, distributed globally via CloudFront, and mapped to a custom domain using Route 53 for DNS management.`,
-      github: "https://github.com/ceeeentd/personal-portfolio",
+      github: "https://github.com/itsgenesis777/portfolio",
       type: "project"
     },
     {
@@ -15,7 +15,7 @@ const Portfolio = () => {
       description:
         "Implemented continuous deployment for this website using GitHub Actions. On each push to main, the app is automatically built, synced to S3, and invalidated in CloudFront — enabling zero-downtime updates and fast iteration.",
       type: "project",
-      github: "https://github.com/ceeeentd/personal-portfolio"
+      github: "https://github.com/itsgenesis777/portfolio"
     },
   ];
 

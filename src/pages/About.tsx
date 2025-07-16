@@ -23,18 +23,23 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-2xl font-semibold text-white">My Journey</h2>
               <p className="text-gray-400 leading-relaxed">
-                As a recent Computer Engineering graduate, I'm driven by a passion for cloud computing 
-                and automation technologies. My journey began with a fascination for how technology can 
-                streamline processes and create efficient solutions.
+                I graduated with a degree in Electronics Engineering, but I found myself falling in love with cloud computing 
+                and tech along the way. What started as curiosity turned into a full-on career shift. 
+                Now I work as a Cloud Consultant — learning, building, and figuring things out one solution at a time. 
+                I enjoy simplifying complex things, automating stuff, and geeking out over AWS. 
+                Outside of tech, I’m probably watering plants, hanging out with my cats, or catching up on anime.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                I believe in the power of continuous learning and staying current with emerging technologies. 
-                My focus on DevOps practices and cloud infrastructure stems from a desire to bridge the gap 
-                between development and operations, creating seamless, automated workflows.
+                 I’m more into working with AWS services — building things in the cloud, exploring what’s possible,
+                 and making sure everything runs smoothly and efficiently. I enjoy learning new tools, testing out
+                 different services, and finding the best ways to bring ideas to life using the cloud.
+                 There's always something new to explore, and that’s what keeps it exciting for me.
               </p>
+
               <p className="text-gray-400 leading-relaxed">
-                I'm committed to contributing to teams that embrace innovation and utilize cutting-edge 
-                cloud and automation technologies to solve real-world problems.
+                I’m eager to contribute to teams that value innovation and use cloud technologies to solve real-world challenges. 
+                With a strong interest in AWS services and a hands-on mindset, I enjoy building scalable, reliable solutions and 
+                continuously learning to stay ahead in a fast-moving industry.
               </p>
             </div>
 
@@ -71,8 +76,9 @@ const About = () => {
                     <h3 className="text-lg font-semibold text-white mb-2">Education</h3>
                     <div className="space-y-3">
                       <div>
-                        <h4 className="font-medium text-gray-300">Bachelor of Science in Computer Engineering</h4>
-                        <p className="text-sm text-gray-400">Graduated October 2024</p>
+                        <h4 className="font-medium text-gray-300">Bachelor of Science in Electronics and Communications Engineering</h4>
+                        <p className="text-sm text-gray-400">Mapúa University • Graduated September 2020</p>
+                        <p className="text-sm text-gray-500 italic">Specialization in Test Development</p>
                       </div>
                     </div>
                   </div>
@@ -93,15 +99,9 @@ const About = () => {
                       <div>
                         <h4 className="font-medium text-gray-300">Freelance Cloud Support Engineer</h4>
                         <p className="text-sm text-blue-400">CAMPF Cloud Consulting Services Inc.</p>
-                        <p className="text-sm text-gray-400">June 2023 - Present</p>
+                        <p className="text-sm text-gray-400">September 2021 - Present</p>
                         <p className="text-sm text-gray-500 mt-2">
                           Providing cloud consulting services and technical solutions for various projects.
-                        </p>
-                        <h4 className="font-medium text-gray-300">CSR/TSR</h4>
-                        <p className="text-sm text-blue-400">Foundever</p>
-                        <p className="text-sm text-gray-400">Oct 2024 - May 2025</p>
-                        <p className="text-sm text-gray-500 mt-2">
-                          Providing technical support over the phone to customers.
                         </p>
                       </div>
                     </div>
@@ -122,7 +122,7 @@ const About = () => {
                     <div className="space-y-3">
                       <div>
                         <a 
-                          href="https://cp.certmetrics.com/amazon/en/public/verify/credential/facce69c0bff4fb3b415993bd5dea47a"
+                          href="https://cp.certmetrics.com/amazon/en/public/verify/credential/18c0c6dc7ad14f95bc0606be3189355f"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="group flex items-center space-x-2 hover:text-blue-400 transition-colors"

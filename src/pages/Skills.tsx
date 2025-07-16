@@ -47,7 +47,7 @@ const Skills = () => {
     {
       title: "Infrastructure as Code",
       icon: Settings,
-      skills: ["Ansible", "Terraform", "CloudFormation"],
+      skills: ["Terraform", "CloudFormation"],
       color: "red"
     },
     {
@@ -59,7 +59,7 @@ const Skills = () => {
     {
       title: "CI/CD & Monitoring",
       icon: Activity,
-      skills: ["CI/CD Pipelines", "Prometheus, Grafana, CloudWatch", "Jenkins, Github Actions"],
+      skills: ["CI/CD Pipelines", "CloudWatch", "Jenkins, Github Actions"],
       color: "yellow"
     },
     {
