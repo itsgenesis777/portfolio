@@ -1,0 +1,53 @@
+name: CI/CD Deploy to AWS
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the code
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # Step 2: Set up Node.js
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: npm install
+
+    # Step 4: Build the Vite project
+    - name: Build project
+      run: npm run build
+
+    # Step 5: Configure AWS credentials
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v2
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ap-southeast-1
+
+    # Step 6: Sync built site to S3
+    - name: Deploy to S3 without deleting the resume
+      run: |
+        aws s3 sync ./dist s3://mypersonal-porfolio-vincent \
+          --delete \
+          --exclude "updated_resume.pdf"
+
+
+    # Step 7: Invalidate CloudFront cache
+    - name: Invalidate CloudFront cache
+      run: |
+        aws cloudfront create-invalidation \
+          --distribution-id E138N9AB1JRTPA \
+          --paths "/*"
+
+
