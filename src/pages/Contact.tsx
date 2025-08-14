@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://98z0asefie.execute-api.ap-southeast-1.amazonaws.com/contact", {
+      const response = await fetch("https://ga282zd3x8.execute-api.ap-southeast-1.amazonaws.com/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

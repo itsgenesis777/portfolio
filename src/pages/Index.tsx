@@ -78,7 +78,7 @@ const Index = () => {
             {/* Profile Image */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
-                <div className="transition-transform duration-300 hover:scale-105 w-80 h-80 lg:w-96 lg:h-96 overflow-hidden rounded-full shadow-xl">
+                <div className="transition-transform duration-300 hover:scale-105 w-80 h-80 lg:w-96 lg:h-96 overflow-hidden rounded-full shadow-xl bg-white">
                   <img
                     src={myPhoto}
                     alt="John Genesis Pamintuan"
